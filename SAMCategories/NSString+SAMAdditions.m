@@ -6,6 +6,7 @@
 //  Copyright (c) 2009-2014 Sam Soffes. All rights reserved.
 //
 
+#import <CommonCrypto/CommonHMAC.h>
 #import "NSString+SAMAdditions.h"
 #import "NSData+SAMAdditions.h"
 

@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CommonCrypto/CommonHMAC.h>
+
+typedef uint32_t CCHmacAlgorithm;
 
 /**
  Provides extensions to `NSString` for various common tasks.
