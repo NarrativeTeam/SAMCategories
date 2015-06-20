@@ -11,6 +11,7 @@ Pod::Spec.new do |spec|
   spec.resources = 'SAMCategories/SAMCategories.bundle'
 
   spec.ios.frameworks = 'UIKit', 'CoreGraphics', 'QuartzCore'
+  spect.io.library = 'libcommonCrypto.dylib'
   spec.ios.source_files = 'SAMCategories/*.{h,m}'
 
   spec.osx.source_files = 'SAMCategories/NS*.{h,m}'

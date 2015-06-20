@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CommonCrypto/CommonCrypto.h>
+#import <CommonCrypto/CommonHMAC.h>
 
 /**
  Provides extensions to `NSString` for various common tasks.
